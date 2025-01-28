@@ -5,7 +5,7 @@ int product(int n,int p, int m){
     if(m==1) return n;
     return product(n+p,p,m-1);
 }
-    
+//ok  
 int main(){
      
 int n,m;
